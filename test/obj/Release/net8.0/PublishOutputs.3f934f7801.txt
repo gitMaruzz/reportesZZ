@@ -1,0 +1,11 @@
+D:\zz\Fabrica\Nodian\code\APIProjectDocs\test\obj\Release\net8.0\PubTmp\Out\test.exe
+D:\zz\Fabrica\Nodian\code\APIProjectDocs\test\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\zz\Fabrica\Nodian\code\APIProjectDocs\test\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\zz\Fabrica\Nodian\code\APIProjectDocs\test\obj\Release\net8.0\PubTmp\Out\test.dll
+D:\zz\Fabrica\Nodian\code\APIProjectDocs\test\obj\Release\net8.0\PubTmp\Out\test.deps.json
+D:\zz\Fabrica\Nodian\code\APIProjectDocs\test\obj\Release\net8.0\PubTmp\Out\test.runtimeconfig.json
+D:\zz\Fabrica\Nodian\code\APIProjectDocs\test\obj\Release\net8.0\PubTmp\Out\test.pdb
+D:\zz\Fabrica\Nodian\code\APIProjectDocs\test\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\zz\Fabrica\Nodian\code\APIProjectDocs\test\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\zz\Fabrica\Nodian\code\APIProjectDocs\test\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\zz\Fabrica\Nodian\code\APIProjectDocs\test\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

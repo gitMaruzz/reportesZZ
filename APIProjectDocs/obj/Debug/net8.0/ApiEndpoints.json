@@ -1,0 +1,1393 @@
+[
+  {
+    "ContainingType": "APIProjectDocs.Controllers.AuthController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Auth/change-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "APIProjectDocs.DTOs.DTO\u002BChangePasswordRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "APIProjectDocs.DTOs.DTO\u002BLoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BLoginResponseDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.AuthController",
+    "Method": "GetCurrentUser",
+    "RelativePath": "api/Auth/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BUsuarioDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.AuthController",
+    "Method": "ValidateToken",
+    "RelativePath": "api/Auth/validate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BUsuarioDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.EntregableController",
+    "Method": "GetAll",
+    "RelativePath": "api/Entregable",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Collections.Generic.List\u00601[[APIProjectDocs.DTOs.DTO\u002BEntregableDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.EntregableController",
+    "Method": "Create",
+    "RelativePath": "api/Entregable",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createDto",
+        "Type": "APIProjectDocs.DTOs.DTO\u002BCreateEntregableDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BEntregableDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.EntregableController",
+    "Method": "GetById",
+    "RelativePath": "api/Entregable/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BEntregableDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.EntregableController",
+    "Method": "Update",
+    "RelativePath": "api/Entregable/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDto",
+        "Type": "APIProjectDocs.DTOs.DTO\u002BUpdateEntregableDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BEntregableDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.EntregableController",
+    "Method": "Delete",
+    "RelativePath": "api/Entregable/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.EntregableController",
+    "Method": "Activar",
+    "RelativePath": "api/Entregable/{id}/activar",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.EntregableController",
+    "Method": "GetEntregableData",
+    "RelativePath": "api/Entregable/{id}/data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.EntregableController",
+    "Method": "Desactivar",
+    "RelativePath": "api/Entregable/{id}/desactivar",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.EntregableController",
+    "Method": "GetByProyecto",
+    "RelativePath": "api/Entregable/by-proyecto/{idProyecto}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProyecto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Collections.Generic.List\u00601[[APIProjectDocs.DTOs.DTO\u002BEntregableDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.EntregableController",
+    "Method": "GetDisponibles",
+    "RelativePath": "api/Entregable/disponibles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Collections.Generic.List\u00601[[APIProjectDocs.DTOs.DTO\u002BEntregableDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.EntregableController",
+    "Method": "GetEstadisticas",
+    "RelativePath": "api/Entregable/estadisticas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.EntregableController",
+    "Method": "GetMisEntregables",
+    "RelativePath": "api/Entregable/mis-entregables",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Collections.Generic.List\u00601[[APIProjectDocs.DTOs.DTO\u002BEntregableDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.EntregableController",
+    "Method": "GetPendientes",
+    "RelativePath": "api/Entregable/pendientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Collections.Generic.List\u00601[[APIProjectDocs.DTOs.DTO\u002BEntregableDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.PlataformasController",
+    "Method": "GetAll",
+    "RelativePath": "api/Plataformas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "activa",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BPagedResultDto\u00601[[APIProjectDocs.DTOs.DTO\u002BPlataformaDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.PlataformasController",
+    "Method": "Create",
+    "RelativePath": "api/Plataformas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "APIProjectDocs.DTOs.DTO\u002BCreatePlataformaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BPlataformaDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.PlataformasController",
+    "Method": "GetById",
+    "RelativePath": "api/Plataformas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BPlataformaDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.PlataformasController",
+    "Method": "Update",
+    "RelativePath": "api/Plataformas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "APIProjectDocs.DTOs.DTO\u002BUpdatePlataformaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BPlataformaDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.PlataformasController",
+    "Method": "Delete",
+    "RelativePath": "api/Plataformas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.PlataformasController",
+    "Method": "AsignarCoordinador",
+    "RelativePath": "api/Plataformas/{idPlataforma}/asignar-coordinador",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPlataforma",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "APIProjectDocs.DTOs.DTO\u002BAsignarUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.PlataformasController",
+    "Method": "GetCoordinadores",
+    "RelativePath": "api/Plataformas/{idPlataforma}/coordinadores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPlataforma",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Collections.Generic.List\u00601[[APIProjectDocs.DTOs.DTO\u002BUsuarioDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.PlataformasController",
+    "Method": "DesasignarCoordinador",
+    "RelativePath": "api/Plataformas/{idPlataforma}/coordinadores/{idUsuario}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPlataforma",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.PlataformasController",
+    "Method": "GetEstadisticas",
+    "RelativePath": "api/Plataformas/{idPlataforma}/estadisticas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPlataforma",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BPlataformaEstadisticasDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.PlataformasController",
+    "Method": "GetByCoordinador",
+    "RelativePath": "api/Plataformas/by-coordinador/{idCoordinador}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCoordinador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Collections.Generic.List\u00601[[APIProjectDocs.DTOs.DTO\u002BPlataformaDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.PlataformasController",
+    "Method": "GetCoordinadoresDisponibles",
+    "RelativePath": "api/Plataformas/coordinadores-disponibles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPlataforma",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Collections.Generic.List\u00601[[APIProjectDocs.DTOs.DTO\u002BUsuarioDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.PlataformasController",
+    "Method": "GetMisPlataformas",
+    "RelativePath": "api/Plataformas/mis-plataformas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Collections.Generic.List\u00601[[APIProjectDocs.DTOs.DTO\u002BPlataformaDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.PlataformasController",
+    "Method": "GetResumen",
+    "RelativePath": "api/Plataformas/resumen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Collections.Generic.List\u00601[[APIProjectDocs.DTOs.DTO\u002BPlataformaResumenDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.ProyectosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Proyectos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "activo",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BPagedResultDto\u00601[[APIProjectDocs.DTOs.DTO\u002BProyectoDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.ProyectosController",
+    "Method": "Create",
+    "RelativePath": "api/Proyectos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "APIProjectDocs.DTOs.DTO\u002BCreateProyectoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BProyectoDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.ProyectosController",
+    "Method": "GetById",
+    "RelativePath": "api/Proyectos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BProyectoDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.ProyectosController",
+    "Method": "Update",
+    "RelativePath": "api/Proyectos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "APIProjectDocs.DTOs.DTO\u002BUpdateProyectoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BProyectoDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.ProyectosController",
+    "Method": "Delete",
+    "RelativePath": "api/Proyectos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.ProyectosController",
+    "Method": "AsignarLider",
+    "RelativePath": "api/Proyectos/{idProyecto}/asignar-lider",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProyecto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "APIProjectDocs.DTOs.DTO\u002BAsignarUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.ProyectosController",
+    "Method": "GetEstadisticas",
+    "RelativePath": "api/Proyectos/{idProyecto}/estadisticas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProyecto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BProyectoEstadisticasDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.ProyectosController",
+    "Method": "GetLideres",
+    "RelativePath": "api/Proyectos/{idProyecto}/lideres",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProyecto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Collections.Generic.List\u00601[[APIProjectDocs.DTOs.DTO\u002BUsuarioDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.ProyectosController",
+    "Method": "DesasignarLider",
+    "RelativePath": "api/Proyectos/{idProyecto}/lideres/{idUsuario}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProyecto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.ProyectosController",
+    "Method": "GetByLider",
+    "RelativePath": "api/Proyectos/by-lider/{idLider}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idLider",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "activo",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BPagedResultDto\u00601[[APIProjectDocs.DTOs.DTO\u002BProyectoDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.ProyectosController",
+    "Method": "GetByPlataforma",
+    "RelativePath": "api/Proyectos/by-plataforma/{idPlataforma}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPlataforma",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "activo",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BPagedResultDto\u00601[[APIProjectDocs.DTOs.DTO\u002BProyectoDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.ProyectosController",
+    "Method": "GetMisProyectos",
+    "RelativePath": "api/Proyectos/mis-proyectos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "activo",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BPagedResultDto\u00601[[APIProjectDocs.DTOs.DTO\u002BProyectoDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.ProyectosController",
+    "Method": "GetResumenPorPlataforma",
+    "RelativePath": "api/Proyectos/resumen-por-plataforma",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Collections.Generic.List\u00601[[APIProjectDocs.DTOs.DTO\u002BProyectoPorPlataformaDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.UsuariosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Usuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BPagedResultDto\u00601[[APIProjectDocs.DTOs.DTO\u002BUsuarioDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.UsuariosController",
+    "Method": "Create",
+    "RelativePath": "api/Usuarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "APIProjectDocs.DTOs.DTO\u002BCreateUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BUsuarioDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.UsuariosController",
+    "Method": "GetById",
+    "RelativePath": "api/Usuarios/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BUsuarioDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.UsuariosController",
+    "Method": "Update",
+    "RelativePath": "api/Usuarios/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "APIProjectDocs.DTOs.DTO\u002BUpdateUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BUsuarioDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.UsuariosController",
+    "Method": "Delete",
+    "RelativePath": "api/Usuarios/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.UsuariosController",
+    "Method": "GetByEmail",
+    "RelativePath": "api/Usuarios/by-email/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BUsuarioDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIProjectDocs.Controllers.UsuariosController",
+    "Method": "GetByRole",
+    "RelativePath": "api/Usuarios/by-role/{rol}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rol",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIProjectDocs.DTOs.DTO\u002BApiResponseDto\u00601[[APIProjectDocs.DTOs.DTO\u002BPagedResultDto\u00601[[APIProjectDocs.DTOs.DTO\u002BUsuarioDto, APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], APIProjectDocs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_7",
+    "RelativePath": "cors-test",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "\u003C\u003Ef__AnonymousType7\u00603[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String[], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_8",
+    "RelativePath": "health",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "\u003C\u003Ef__AnonymousType8\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
