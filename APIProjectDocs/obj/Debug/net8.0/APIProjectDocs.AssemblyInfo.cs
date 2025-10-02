@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIProjectDocs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+086c9bcbde6f24a4ceee8ffdf6c5c6a1c6ce2dd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIProjectDocs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIProjectDocs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

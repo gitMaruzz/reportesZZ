@@ -144,7 +144,7 @@ namespace APIProjectDocs.Services
             try
             {
                 var usuario = await _context.Usuarios
-                    .Include(u => u.ProyectosAsignados)
+                    .Include(u => u.UsuarioProyectos)
                     .FirstOrDefaultAsync(u => u.IdUsuario == idUsuario);
 
                 if (usuario == null)
@@ -156,7 +156,7 @@ namespace APIProjectDocs.Services
                     };
                 }
 
-                var proyectosIds = usuario.ProyectosAsignados.Select(p => p.IdProyecto).ToList();
+                var proyectosIds = usuario.UsuarioProyectos.Select(p => p.IdProyecto).ToList();
 
                 var entregables = await _context.Entregables
                     .Include(e => e.Proyecto)

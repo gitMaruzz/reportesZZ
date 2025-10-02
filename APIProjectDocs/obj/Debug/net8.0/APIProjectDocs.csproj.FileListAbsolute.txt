@@ -182,3 +182,4 @@ D:\zz\Fabrica\Nodian\code\APIProjectDocs\APIProjectDocs\obj\Debug\net8.0\refint\
 D:\zz\Fabrica\Nodian\code\APIProjectDocs\APIProjectDocs\obj\Debug\net8.0\APIProjectDocs.pdb
 D:\zz\Fabrica\Nodian\code\APIProjectDocs\APIProjectDocs\obj\Debug\net8.0\APIProjectDocs.genruntimeconfig.cache
 D:\zz\Fabrica\Nodian\code\APIProjectDocs\APIProjectDocs\obj\Debug\net8.0\ref\APIProjectDocs.dll
+D:\zz\Fabrica\Nodian\code\APIProjectDocs\APIProjectDocs\obj\Debug\net8.0\APIProjectDocs.sourcelink.json

@@ -27,7 +27,7 @@ namespace APIProjectDocs.Controllers
         /// Obtener todos los entregables (solo Dirección)
         /// </summary>
         [HttpGet]
-        //[AuthorizeRoles(RolUsuario.Direccion)]
+        [AuthorizeRoles(RolUsuario.Direccion)]
         public async Task<ActionResult<ApiResponseDto<List<EntregableDto>>>> GetAll()
         {
             var result = await _entregableService.GetAllAsync();

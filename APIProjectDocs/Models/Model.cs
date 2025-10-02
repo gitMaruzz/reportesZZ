@@ -34,9 +34,9 @@ namespace APIProjectDocs.Models
         public virtual ICollection<UsuarioProyecto> UsuarioProyectos { get; set; } = new List<UsuarioProyecto>();
 
         // Relaciones
-        public virtual ICollection<Plataforma> PlataformasAsignadas { get; set; } = new List<Plataforma>();
+        //public virtual ICollection<Plataforma> PlataformasAsignadas { get; set; } = new List<Plataforma>();
 
-        public virtual ICollection<Proyecto> ProyectosAsignados { get; set; } = new List<Proyecto>();
+        //public virtual ICollection<Proyecto> ProyectosAsignados { get; set; } = new List<Proyecto>();
     }
 
     public enum RolUsuario

@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\zz\\Fabrica\\Nodian\\code\\APIProjectDocs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B8238A26-E29D-4C3B-846A-BD3AF32E3537}|APIProjectDocs\\APIProjectDocs.csproj|d:\\zz\\fabrica\\nodian\\code\\apiprojectdocs\\apiprojectdocs\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8238A26-E29D-4C3B-846A-BD3AF32E3537}|APIProjectDocs\\APIProjectDocs.csproj|solutionrelative:apiprojectdocs\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8238A26-E29D-4C3B-846A-BD3AF32E3537}|APIProjectDocs\\APIProjectDocs.csproj|d:\\zz\\fabrica\\nodian\\code\\apiprojectdocs\\apiprojectdocs\\services\\entregableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8238A26-E29D-4C3B-846A-BD3AF32E3537}|APIProjectDocs\\APIProjectDocs.csproj|solutionrelative:apiprojectdocs\\services\\entregableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8238A26-E29D-4C3B-846A-BD3AF32E3537}|APIProjectDocs\\APIProjectDocs.csproj|d:\\zz\\fabrica\\nodian\\code\\apiprojectdocs\\apiprojectdocs\\utils\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8238A26-E29D-4C3B-846A-BD3AF32E3537}|APIProjectDocs\\APIProjectDocs.csproj|solutionrelative:apiprojectdocs\\utils\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8238A26-E29D-4C3B-846A-BD3AF32E3537}|APIProjectDocs\\APIProjectDocs.csproj|d:\\zz\\fabrica\\nodian\\code\\apiprojectdocs\\apiprojectdocs\\controllers\\entregablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B8238A26-E29D-4C3B-846A-BD3AF32E3537}|APIProjectDocs\\APIProjectDocs.csproj|d:\\zz\\fabrica\\nodian\\code\\apiprojectdocs\\apiprojectdocs\\models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8238A26-E29D-4C3B-846A-BD3AF32E3537}|APIProjectDocs\\APIProjectDocs.csproj|solutionrelative:apiprojectdocs\\models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8238A26-E29D-4C3B-846A-BD3AF32E3537}|APIProjectDocs\\APIProjectDocs.csproj|d:\\zz\\fabrica\\nodian\\code\\apiprojectdocs\\apiprojectdocs\\utils\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8238A26-E29D-4C3B-846A-BD3AF32E3537}|APIProjectDocs\\APIProjectDocs.csproj|solutionrelative:apiprojectdocs\\utils\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\zz\\Fabrica\\Nodian\\code\\APIProjectDocs\\APIProjectDocs\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "APIProjectDocs\\Services\\AuthService.cs",
+              "ToolTip": "D:\\zz\\Fabrica\\Nodian\\code\\APIProjectDocs\\APIProjectDocs\\Services\\AuthService.cs",
+              "RelativeToolTip": "APIProjectDocs\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T17:02:38.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\zz\\Fabrica\\Nodian\\code\\APIProjectDocs\\APIProjectDocs\\Program.cs",
               "RelativeDocumentMoniker": "APIProjectDocs\\Program.cs",
@@ -50,12 +67,11 @@
               "RelativeToolTip": "APIProjectDocs\\Program.cs",
               "ViewState": "AgIAAHsAAAAAAAAAAAAAAJQAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T22:21:02.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T22:21:02.932Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\zz\\Fabrica\\Nodian\\code\\APIProjectDocs\\APIProjectDocs\\appsettings.json",
               "RelativeDocumentMoniker": "APIProjectDocs\\appsettings.json",
@@ -67,20 +83,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Model.cs",
               "DocumentMoniker": "D:\\zz\\Fabrica\\Nodian\\code\\APIProjectDocs\\APIProjectDocs\\Models\\Model.cs",
               "RelativeDocumentMoniker": "APIProjectDocs\\Models\\Model.cs",
               "ToolTip": "D:\\zz\\Fabrica\\Nodian\\code\\APIProjectDocs\\APIProjectDocs\\Models\\Model.cs",
               "RelativeToolTip": "APIProjectDocs\\Models\\Model.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAA9wLUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCYAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T19:25:38.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Data.cs",
               "DocumentMoniker": "D:\\zz\\Fabrica\\Nodian\\code\\APIProjectDocs\\APIProjectDocs\\Models\\Data.cs",
               "RelativeDocumentMoniker": "APIProjectDocs\\Models\\Data.cs",
@@ -92,33 +108,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EntregableService.cs",
               "DocumentMoniker": "D:\\zz\\Fabrica\\Nodian\\code\\APIProjectDocs\\APIProjectDocs\\Services\\EntregableService.cs",
               "RelativeDocumentMoniker": "APIProjectDocs\\Services\\EntregableService.cs",
               "ToolTip": "D:\\zz\\Fabrica\\Nodian\\code\\APIProjectDocs\\APIProjectDocs\\Services\\EntregableService.cs",
               "RelativeToolTip": "APIProjectDocs\\Services\\EntregableService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T18:14:53.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "EntregableController.cs",
               "DocumentMoniker": "D:\\zz\\Fabrica\\Nodian\\code\\APIProjectDocs\\APIProjectDocs\\Controllers\\EntregableController.cs",
               "RelativeDocumentMoniker": "APIProjectDocs\\Controllers\\EntregableController.cs",
               "ToolTip": "D:\\zz\\Fabrica\\Nodian\\code\\APIProjectDocs\\APIProjectDocs\\Controllers\\EntregableController.cs",
               "RelativeToolTip": "APIProjectDocs\\Controllers\\EntregableController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAkwCAAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T18:07:26.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Authorization.cs",
               "DocumentMoniker": "D:\\zz\\Fabrica\\Nodian\\code\\APIProjectDocs\\APIProjectDocs\\Utils\\Authorization.cs",
               "RelativeDocumentMoniker": "APIProjectDocs\\Utils\\Authorization.cs",
@@ -126,7 +142,8 @@
               "RelativeToolTip": "APIProjectDocs\\Utils\\Authorization.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T17:26:46.213Z"
+              "WhenOpened": "2025-09-30T17:26:46.213Z",
+              "EditorCaption": ""
             }
           ]
         }
